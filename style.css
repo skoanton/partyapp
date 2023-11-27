@@ -1,0 +1,40 @@
+/* Normalise css */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --main-bg-color: #0CCE6B;
+    --secondary-color: #EF2D56;
+    --third-color: #ED7D3A;
+
+    --ff-main: 'Roboto', sans-serif;
+    --fw-500 : 500;
+    --fw-700 : 700;
+
+    --fs-normal: 1.5rem;
+    --fs-big: 3rem; 
+
+    
+}
+
+
+/*Utilites*/
+
+
+
+
+/* Genergal styling */
+body{
+background-color: var(--main-bg-color);
+font-family: var(--ff-main);
+}
+
+h1{
+    font-size: var(--fs-big);
+    font-weight: var(--fw-700);
+    color: var(--secondary-color);
+}

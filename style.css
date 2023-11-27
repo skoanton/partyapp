@@ -34,13 +34,30 @@
    text-transform: uppercase;
    padding: 1rem;
    border-radius: 1rem;
+   margin: 0 3rem;
 }
 
+.flex-container-col,main{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    
+}
+
+main{
+    gap: 5rem;
+}
+
+.grid-container{
+    display: grid;
+    
+}
 
 
 
 /* Genergal styling */
 body{
+height: 100vh;
 background-color: var(--main-bg-color);
 font-family: var(--ff-main);
 }
@@ -49,4 +66,6 @@ h1{
     font-size: var(--fs-big);
     font-weight: var(--fw-700);
     color: var(--secondary-color);
+    text-align: center;
+    padding: 2rem;
 }
